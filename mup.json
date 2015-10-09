@@ -1,0 +1,31 @@
+{
+  "servers": [
+    {
+      "host": "188.166.250.104",
+      "username": "root",
+      "password": "Mw140120"
+    }
+  ],
+
+  "setupMongo": true,
+
+  "setupNode": true,
+
+  "nodeVersion": "0.10.40",
+
+  "setupPhantom": true,
+
+  "enableUploadProgressBar": true,
+
+  "appName": "39colscms",
+
+  "app": "/Users/mike/xxApp",
+
+  "env": {
+    "ROOT_URL": "http://188.166.250.104",
+    "PORT":80,
+    "MAIL_URL":"smtp://39columns%40abundantwhale.com:277439Col@smtp.gmail.com:465/"
+  },
+
+  "deployCheckWaitTime": 15
+}
